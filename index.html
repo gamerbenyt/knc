@@ -7,17 +7,18 @@
     <title>Knights and Castles Mod by Gamer Ben</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: 'Arial', sans-serif;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #333;
-            color: white;
+            background-color: #2d2d2d;
+            color: #f0f0f0;
             padding: 20px 0;
             text-align: center;
+            border-bottom: 2px solid #444;
         }
         header img {
             width: 150px;
@@ -25,24 +26,26 @@
             border-radius: 8px;
         }
         main {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 20px auto;
-            background: white;
-            padding: 30px;
+            background: #2a2a2a;
+            padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
         }
         h1 {
-            color: #222;
-            margin-bottom: 10px;
+            font-size: 2.5em;
+            margin: 0;
+            color: #ffffff;
         }
         h2 {
-            color: #555;
-            margin-top: 20px;
-            border-bottom: 2px solid #e2e2e2;
+            font-size: 1.8em;
+            margin: 20px 0 10px;
+            color: #cfcfcf;
+            border-bottom: 2px solid #444;
             padding-bottom: 5px;
         }
-        p {
+        p, ul {
             line-height: 1.6;
             margin-bottom: 10px;
         }
@@ -51,24 +54,35 @@
             margin-left: 20px;
         }
         section {
-            margin-bottom: 20px;
-        }
-        .badges img, .download-links img {
-            margin: 10px;
-            height: 50px;
+            margin-bottom: 30px;
         }
         .crafting-recipes img {
             max-width: 100%;
             height: auto;
-            border: 1px solid #ddd;
-            border-radius: 4px;
+            border: 1px solid #444;
+            border-radius: 5px;
             margin-top: 10px;
         }
         footer {
             text-align: center;
             padding: 15px 0;
-            background-color: #333;
-            color: white;
+            background-color: #2d2d2d;
+            color: #f0f0f0;
+            border-top: 2px solid #444;
+        }
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .download-links a {
+            display: inline-block;
+            margin: 10px;
+        }
+        .download-links img {
+            height: 50px;
         }
     </style>
 </head>
@@ -80,12 +94,12 @@
     <main>
         <section>
             <h2>About the Mod</h2>
-            <p>The Knights and Castles Mod enhances your Minecraft experience by introducing a range of medieval-themed entities and items. Features include:</p>
+            <p>The Knights and Castles Mod enhances your Minecraft experience by introducing a variety of medieval-themed entities and items. Key features include:</p>
             <ul>
                 <li><strong>Medieval Guards:</strong> Protect your villages with these new NPCs.</li>
-                <li><strong>Undead Knights:</strong> Battle fearsome foes at night.</li>
-                <li><strong>Noble Knights:</strong> Ally with brave warriors for added protection.</li>
-                <li><strong>New Weapons:</strong> Equip yourself with lances and katanas.</li>
+                <li><strong>Undead Knights:</strong> Battle fearsome foes during the night.</li>
+                <li><strong>Noble Knights:</strong> Ally with brave warriors for additional protection.</li>
+                <li><strong>New Weapons:</strong> Equip lances and katanas for diverse combat styles.</li>
                 <li><strong>Phoenix:</strong> Discover or summon the mythical phoenix.</li>
                 <li><strong>And Much More!</strong></li>
             </ul>
@@ -121,12 +135,12 @@
         </section>
         <section>
             <h2>Purpose</h2>
-            <p>This mod aims to enhance the medieval and fantasy aspects of Minecraft, introducing new challenges, allies, weapons, and mythical creatures.</p>
+            <p>This mod aims to enhance the medieval and fantasy aspects of Minecraft, offering new challenges, allies, weapons, and mythical creatures.</p>
         </section>
         <section>
             <h2>Why Should You Use This?</h2>
             <ul>
-                <li><strong>Immersive Experience:</strong> Explore a richly detailed medieval world with new characters and items.</li>
+                <li><strong>Immersive Experience:</strong> Dive into a richly detailed medieval world with new characters and items.</li>
                 <li><strong>Enhanced Combat:</strong> Enjoy strategic depth with new weapons and enemy types.</li>
                 <li><strong>Fantasy Elements:</strong> Encounter the legendary phoenix, adding excitement to your adventures.</li>
                 <li><strong>Village Protection:</strong> Safeguard your villages with medieval guards and noble knights.</li>
@@ -136,20 +150,22 @@
             <h2>About The NF Releases</h2>
             <p>The NeoForge releases are ports, not new modloaders for this mod. While we have expanded compatibility with other mods by porting KC to NeoForge, new versions will still be released with FML. We may eventually switch to NeoForge, but for now, it is just a second modloader version of KC.</p>
         </section>
-        <section class="badges">
+        <section>
             <h2>Download Links</h2>
-        </section>
-        <section class="download-links">
-            <a href="https://modrinth.com/mod/geckolib/version/jK2C8NsI">
-                <img src="https://i.imgur.com/uJRh2EV.png" alt="GeckoLib">
-            </a>
-            <a href="https://files.minecraftforge.net/net/minecraftforge/forge/">
-                <img src="https://wsrv.nl/?url=https%3A%2F%2Fcdn.jonasjones.dev%2Fmod-badges%2Fsupport-forge.png&amp;n=-1" alt="Forge Support">
-            </a>
-            <a href="https://neoforged.net">
-                <img src="https://gamerbenyt.sirv.com/Images/Supported%20on%20Neoforge.png" alt="NeoForge Support">
-            </a>
-            <img src="https://gamerbenyt.sirv.com/Fabric-removebg-preview.png" alt="Fabric Support">
+            <div class="download-links">
+                <a href="https://modrinth.com/mod/geckolib/version/jK2C8NsI">
+                    <img src="https://i.imgur.com/uJRh2EV.png" alt="GeckoLib">
+                </a>
+                <a href="https://files.minecraftforge.net/net/minecraftforge/forge/">
+                    <img src="https://wsrv.nl/?url=https%3A%2F%2Fcdn.jonasjones.dev%2Fmod-badges%2Fsupport-forge.png&amp;n=-1" alt="Forge Support">
+                </a>
+                <a href="https://neoforged.net">
+                    <img src="https://gamerbenyt.sirv.com/Images/Supported%20on%20Neoforge.png" alt="NeoForge Support">
+                </a>
+                <a href="#">
+                    <img src="https://gamerbenyt.sirv.com/Fabric-removebg-preview.png" alt="Fabric Support">
+                </a>
+            </div>
         </section>
     </main>
     <footer>
